@@ -1,0 +1,21 @@
+{
+  "name": "vip-fs",
+  "version": "0.0.0",
+  "description": "A pubsub system to sync file systems on S3, client desktop, and web browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "s3",
+    "sync"
+  ],
+  "author": "Nick Hagianis",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^0.9.16",
+    "redis": "^0.10.1"
+  }
+}
